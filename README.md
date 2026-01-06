@@ -1,9 +1,9 @@
-# hotcalls-make-documentation
+# malma-make-documentation
 
-hotcalls.ai – API Documentation
+malma.ai – API Documentation
 
-Official API documentation for the Make.com integration with hotcalls.ai.
-This document describes the workspace-based endpoints used to retrieve agents and create new leads within a Hotcalls workspace.
+Official API documentation for the Make.com integration with malma.ai.
+This document describes the workspace-based endpoints used to retrieve agents and create new leads within a Malma workspace.
 
 🔐 Authentication
 
@@ -15,7 +15,7 @@ Authorization: Bearer <workspace_api_token>
 Content-Type: application/json
 
 🌍 Base URL
-https://app.hotcalls.ai/api
+https://app.malma.ai/api
 
 📚 Endpoints
 1) GET /api/workspace/agents
@@ -23,7 +23,7 @@ https://app.hotcalls.ai/api
 Returns all agents belonging to the workspace associated with the provided API token.
 
 Request
-GET https://app.hotcalls.ai/api/workspace/agents
+GET https://app.malma.ai/api/workspace/agents
 Authorization: Bearer <workspace_api_token>
 
 Response
