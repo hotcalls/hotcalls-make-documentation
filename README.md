@@ -1,8 +1,8 @@
-# malma-make-documentation
+# malma-make/zapier-documentation
 
 malma.ai – API Documentation
 
-Official API documentation for the Make.com integration with malma.ai.
+Official API documentation for the Make.com or Zapier integration with malma.ai.
 This document describes the workspace-based endpoints used to retrieve agents and create new leads within a Malma workspace.
 
 🔐 Authentication
@@ -56,7 +56,7 @@ Status	Meaning
 403	Workspace not accessible
 500	Internal server error
 
-This endpoint is optimized for Make.com dynamic dropdowns using the label / value response structure.
+This endpoint is optimized for Make.com oder Zapier dynamic dropdowns using the label / value response structure.
 
 2) POST /api/workspace/create-lead
 
